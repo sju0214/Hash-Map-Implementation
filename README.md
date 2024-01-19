@@ -17,7 +17,7 @@ The main implementation is provided in the file hash_map_sc.py. It includes a sk
 - `empty_buckets()`: Count and return the number of empty buckets in the hash map.
 - `resize_table()`: Resize the hash table to accommodate more key-value pairs.
 - `table_load()`: Calculate and return the current load factor of the hash map.
-- `get_keys()`: Return a list of all keys in the hash map.
+- `get_keys_and_values()`: Return a list of all keys and values in the hash map.
 - `find_mode()`: Find and return the key with the maximum occurrences in the hash map.
 
 1. Two pre-written classes are provided for you in the skeleton code - DynamicArray and LinkedList (in a6_include.py). The objects of these classes MUST be used in the HashMap class implementation. Use a DynamicArray object to store the hash table, and LinkedList objects to store chains of key/value pairs.
